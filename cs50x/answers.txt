@@ -1,0 +1,10 @@
+--If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+
+Based on the average values, the listener's aura is balanced and rhythmic. With an average danceability of
+and a tempo of 119.9 BPM, the music is movement-oriented and catchy, but the moderate energy (0.66) and neutral valence (0.48)
+suggest the listener prefers songs that are vibey and atmospheric rather than intensely aggressive or overly joyful.
+
+--Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener. What better ways of calculating this aura would you propose?
+My calculation is highly generalized and may not represent the listener's actual preferences . For instance, a mix of very high-energy
+and very low-energy songs would result in a 'medium' average that doesn't actually exist in the playlist. A better way to calculate this would be a weighted average based
+on play counts, or identifying clusters of moods to show the different 'sub-auras' a listener has throughout the day
