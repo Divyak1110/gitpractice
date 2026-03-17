@@ -1,0 +1,21 @@
+Applied Data Science with Python – University of Michigan
+This repository contains my structured coursework, assignments, and practice notebooks from the Applied Data Science with Python Specialization offered by the University of Michigan. The work spans five courses and focuses on building strong foundations in Python, data wrangling, visualization, machine learning, and applied analytics.
+📚 Contents
+- Course 1: Introduction to Data Science in Python
+Assignments, Pandas practice, and exploratory analysis.
+- Course 2: Applied Plotting, Charting & Data Representation
+Visualization exercises and Matplotlib/Seaborn practice.
+- Course 3: Applied Machine Learning
+Supervised and unsupervised ML assignments.
+- Course 4: Applied Text Mining
+NLP tasks, text preprocessing, and sentiment analysis.
+- Course 5: Applied Social Network Analysis
+Graph analysis and network algorithms.
+🎯 Skills Strengthened
+- Data cleaning and wrangling with Pandas
+- Exploratory data analysis
+- Visualization and storytelling
+- Machine learning workflows
+- Working with real-world datasets
+- Writing clean, modular Python functions
+- Building portfolio-ready notebooks
