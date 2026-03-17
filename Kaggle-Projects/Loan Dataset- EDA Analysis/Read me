@@ -1,0 +1,28 @@
+# Loan Dataset — Exploratory Analysis (README)
+##Overview
+This dataset contains information about loan applicants, including demographic details, income, credit history, and loan characteristics. It is commonly used for data cleaning, EDA, and predictive modeling (loan approval, risk scoring, etc.).
+The file you uploaded includes Loan_ID, applicant demographics, income details, loan amount, loan term, and credit history.
+
+## Dataset Description
+## Columns and Meaning
+- Loan_ID — Unique identifier for each loan application
+- Gender — Male / Female
+- Married — Applicant’s marital status
+- Dependents — Number of dependents (0,1,2,3+)
+- Education — Graduate / Not Graduate
+- Self_Employed — Whether the applicant is self‑employed
+- ApplicantIncome — Monthly income of the applicant
+- CoapplicantIncome — Monthly income of the co‑applicant
+- LoanAmount — Loan amount (in thousands)
+- Loan_Amount_Term — Duration of the loan (in months)
+- Credit_History — 1 = good credit history, 0 = poor credit history
+- Property_Area — Urban / Semiurban / Rural
+
+## Data Quality Notes
+During inspection, the dataset shows:
+- Missing values in Gender, Dependents, Self_Employed, LoanAmount, Loan_Amount_Term, Credit_History
+- Some LoanAmount values appear unusually high or low
+- ApplicantIncome has a wide range (from 0 to very high values)
+- Some rows have ApplicantIncome = 0 but high co‑applicant income
+- Loan_Amount_Term includes unusual values (e.g., 12, 36, 60 months)
+These issues make the dataset ideal for practicing data cleaning, imputation, and feature engineering.
