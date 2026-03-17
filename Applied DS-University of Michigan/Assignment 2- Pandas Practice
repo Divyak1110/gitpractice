@@ -1,0 +1,75 @@
+#** Assignment 2 — Applied Data Science with Python (University of Michigan)**
+This repository contains my solutions and notes for Assignment 2 from Course 1: Introduction to Data Science in Python in the Applied Data Science with Python Specialization by the University of Michigan.
+The assignment uses 2017 CDC Immunization Data (NIS-PUF17) and focuses on data cleaning, filtering, grouping, proportions, and exploratory analysis using Pandas.
+
+## Learning Objectives
+This assignment strengthens core Python-for-Data-Science skills:
+- Working with real-world public health datasets
+- Loading and inspecting CSV files using Pandas
+- Selecting and filtering data based on conditions
+- Computing proportions, means, and group-level statistics
+- Handling missing values
+- Writing clean, reusable functions
+- Returning results in Python-native structures (dict, float, tuple)
+These skills map directly to Junior Data Scientist / Data Analyst responsibilities such as data wrangling, exploratory analysis, and deriving insights from messy datasets.
+
+##Dataset Used
+- File: NISPUF17.csv
+- Source: CDC National Immunization Survey (2017)
+- Documentation: NIS-PUF17-DUG.pdf (data dictionary)
+Key variables used across questions:
+- EDUC1 — Mother’s education level
+- CBF_01 — Breastfeeding indicator
+- P_NUMFLU — Number of flu vaccine doses
+- HAD_CPOX — Chickenpox history
+- P_NUMVRC — Varicella vaccine doses
+
+## Questions & What They Demonstrate
+
+1. proportion_of_education()
+Goal:
+Calculate the proportion of children whose mothers fall into four education categories:
+- less than high school (<12)
+- high school (12)
+- more than high school but not college (>12)
+- college graduate (16)
+Skills Demonstrated:
+- Value counts and normalization
+- Dictionary construction
+- Handling categorical variables
+- Clean functional design
+Output:
+A dictionary with exact proportions (no rounding).
+
+2. average_influenza_doses()
+Goal:
+Compute the average number of influenza vaccine doses received by:
+- children who were breastfed
+- children who were not breastfed
+Skills Demonstrated:
+- Boolean filtering
+- Group-wise mean calculation
+- Dealing with missing values
+- Returning a tuple of floats
+
+3. chickenpox_by_sex()
+Goal:
+Calculate the ratio of:
+\mathrm{(boys\  with\  chickenpox)\  /\  (boys\  without\  chickenpox)}
+\mathrm{(girls\  with\  chickenpox)\  /\  (girls\  without\  chickenpox)}
+Skills Demonstrated:
+- Multi-condition filtering
+- Avoiding invalid entries (e.g., missing or unknown)
+- Computing ratios
+- Returning a dictionary
+
+4. corr_chickenpox()
+Goal:
+Compute the Pearson correlation between:
+- number of varicella vaccine doses (P_NUMVRC)
+- whether the child had chickenpox (HAD_CPOX)
+Skills Demonstrated:
+- Data cleaning (removing invalid values)
+- Using scipy.stats.pearsonr or Pandas .corr()
+- Understanding correlation direction and magnitude
+- Interpreting real-world health data
