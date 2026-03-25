@@ -1,0 +1,49 @@
+# Python OOPs Assignment – README
+## Overview
+This repository contains my solutions to the Python OOPs assignment. The questions cover the main object‑oriented concepts in Python such as inheritance, polymorphism, abstraction, encapsulation, and class design. I have also included small programs using dictionaries, functional programming (map, filter), and simple game logic.
+
+### Q1 – Multiple Inheritance
+I created three classes:
+- Employee – stores employee details like ID, gender, salary, and rating.
+- JoiningDetail – stores the date of joining.
+- Information – inherits from both classes and uses the data to find the top 3 employees based on rating and display them in order of joining date.
+This question demonstrates how multiple inheritance can combine data from different classes.
+
+### Q2 – Polymorphism with Vehicles
+I defined a Vehicle class with a Fare() method and created objects like Bus, Car, Train, Truck, and Ship. Each object calls the same method, and the total fare is calculated. This shows how different objects can use the same interface.
+
+### Q3 – Highest Cricket Score
+I wrote a function Max_Score() that takes a nested dictionary containing player scores from two test matches. The function adds up the scores for each player and returns the player with the highest total.
+
+### Q4 – Higher/Lower Card Game
+This is a simple game where 8 random cards are selected. The player guesses whether the next card will be higher or lower. Correct guesses add 20 points, and wrong guesses subtract 15. This question uses randomization and conditional logic.
+
+### Q5 – Car Dictionary Update
+I created a dictionary with car details and updated the x_position based on the speed:
+- slow → +2
+- medium → +9
+- fast → +22
+This question focuses on dictionary manipulation.
+
+### Q6 – Abstraction
+I created an abstract base class using Python’s ABC module and implemented abstract methods in child classes. This shows how abstraction forces certain methods to be implemented.
+
+### Q7 – Polymorphism with Private and Protected Members
+I demonstrated how private (__var) and protected (_var) members work in Python and how name‑mangling allows controlled access. I also showed polymorphism using different classes with the same method name.
+
+### Q8 – Square Numbers Using map() and filter()
+I wrote a function that filters positive numbers and returns their squares using map() and filter(). This question practices functional programming.
+
+### Q9–Q12 – Triangle Class and Child Classes
+I created a Triangle class with angle validation and methods to check if the triangle is acute or obtuse.
+Then I created child classes:
+- isosceles_triangle
+- right_triangle
+- equilateral_triangle
+Each class has its own method to check its specific property.
+Finally, I created an isosceles_right_triangle class using multiple inheritance.
+
+## Summary
+This assignment helped me practice all major OOP concepts in Python along with some additional topics like dictionaries, lambda functions, and simple game logic. Each question is implemented in a separate file for clarity.
+
+If you want, I can help you adjust the tone even more so it matches your natural writing style—more casual, more formal, or more concise.
