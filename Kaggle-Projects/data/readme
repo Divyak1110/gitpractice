@@ -1,0 +1,84 @@
+# Dataset Description — Loan Prediction
+
+## Overview
+The Loan Prediction dataset contains demographic, financial, and credit‑related information about loan applicants.
+
+It is commonly used for:
+Exploratory Data Analysis (EDA)
+SQL analytical practice
+Feature engineering
+Credit‑risk modeling
+Classification (loan approval prediction)
+This dataset is part of a Kaggle challenge and is widely used in data science learning.
+
+## File
+loan_prediction.csv
+📊 Columns & Meaning
+1. Loan_ID
+Unique identifier for each loan application.
+
+2. Gender
+Applicant’s gender: Male,Female
+
+3. Married
+Marital status: Yes, No
+
+4. Dependents
+Number of dependents: 0, 1, 2, 3+
+
+5. Education
+Applicant’s education level: Graduate, Not Graduate
+
+6. Self_Employed
+Employment type: Yes, No
+
+7. ApplicantIncome
+Monthly income of the primary applicant.
+
+8. CoapplicantIncome
+Monthly income of the co‑applicant (if any).
+
+9. LoanAmount
+Loan amount requested (in thousands).
+
+10. Loan_Amount_Term
+Term of the loan (in months).
+
+11. Credit_History
+Credit history meets guidelines: 1 → Good credit history, 0 → Poor or no credit history
+
+12. Property_Area
+Location of the property: Rural, Semiurban, Urban
+
+13. Loan_Status
+Loan approval outcome: Y → Approved, N → Not approved
+
+## Data Quality Notes
+-Some columns contain missing values (LoanAmount, Credit_History, etc.).
+-Dependents includes a categorical value "3+" which needs conversion for modeling.
+-Income variables have right‑skewed distributions.
+-LoanAmount may contain outliers.
+- Credit_History is a strong predictor for approval.
+
+## Use Cases for This Dataset
+### Exploratory Data Analysis
+Income distribution
+Loan amount patterns
+Approval rates
+Credit history impact
+Property area segmentation
+
+### SQL Analysis
+Aggregations
+Window functions
+Ranking
+CTE pipelines
+Outlier detection
+Risk scoring
+
+### Machine Learning
+Binary classification (Loan_Status)
+Feature engineering
+Model interpretability
+Credit‑risk scoring
+
